@@ -1,0 +1,12 @@
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/bin/Debug/netcoreapp3.1/CSharp_Programming.deps.json
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/bin/Debug/netcoreapp3.1/CSharp_Programming.runtimeconfig.json
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/bin/Debug/netcoreapp3.1/CSharp_Programming.runtimeconfig.dev.json
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/bin/Debug/netcoreapp3.1/CSharp_Programming.dll
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/bin/Debug/netcoreapp3.1/CSharp_Programming.pdb
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/obj/Debug/netcoreapp3.1/CSharp_Programming.csprojAssemblyReference.cache
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/obj/Debug/netcoreapp3.1/CSharp_Programming.csproj.CoreCompileInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/obj/Debug/netcoreapp3.1/CSharp_Programming.AssemblyInfoInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/obj/Debug/netcoreapp3.1/CSharp_Programming.AssemblyInfo.cs
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/obj/Debug/netcoreapp3.1/CSharp_Programming.dll
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/obj/Debug/netcoreapp3.1/CSharp_Programming.pdb
+/Volumes/USB/CSharp/CSharp_Programming/Preferences/obj/Debug/netcoreapp3.1/CSharp_Programming.genruntimeconfig.cache
