@@ -124,6 +124,107 @@ namespace CSharp {
 
             */
 
+            /*
+            for (int i = 0; i < 5; i++) {
+                Console.WriteLine ("Hello World");
+            }
+            */
+
+            /*
+            int num = 97;
+            bool isPrime = true;
+
+            for (int i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            if (isPrime) {
+                Console.WriteLine ("소수입니다");
+            } else {
+                Console.WriteLine ("소수가 아닙니다");
+            }
+            */
+            /*
+            for (int i = 0; i < 100; i++) {
+                if (i % 3 != 0) {
+                    continue;
+                }
+                Console.WriteLine ($"3으로 나뉘는 숫자 발견 {i}");
+            }
+            */
+
+            // int num1 = 10;
+            // int num2 = 3;
+
+            // int result1;
+            // int result2;
+
+            // Divide (num1, num2, out result1, out result2);
+
+            // System.Console.WriteLine (result1);
+            // System.Console.WriteLine (result2);
+            Console.WriteLine (Factorial2 (5));
+        }
+
+        // static void HelloWorld () {
+        //     Console.WriteLine ("Hello World");
+        // }
+
+        // static void Divide (int a, int b, out int result1, out int result2) {
+        //     result1 = a / b;
+        //     result2 = a % b;
+        // }
+
+        // static void Swap (ref int a, ref int b) {
+        //     int tmp = a;
+        //     a = b;
+        //     b = tmp;
+        // }
+        // static void AddOne (ref int number) {
+        //     number += 1;
+        // }
+        // static int AddOne2 (int number) {
+        //     return number += 1;
+        // }
+
+        static void GuGuDan () {
+
+            for (int i = 2; i < 10; i++) {
+
+                for (int j = 1; j < 10; j++) {
+                    Console.WriteLine ($"{i} * {j} = {i*j}");
+                }
+            }
+        }
+
+        static void Star () {
+            for (int i = 0; i < 5; i++) {
+
+                for (int j = 0; j <= i; j++) {
+                    Console.Write ("*");
+                }
+                Console.WriteLine ();
+
+            }
+        }
+
+        static int Factorial (int n) {
+            int result = 1;
+
+            for (int i = n; i > 0; i--) {
+                result *= i;
+            }
+            return result;
+        }
+
+        static int Factorial2 (int n) {
+            if (n <= 1) {
+                return 1;
+            }
+            return n * Factorial2 (n - 1);
         }
 
     }
