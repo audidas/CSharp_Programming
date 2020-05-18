@@ -7,6 +7,8 @@ namespace CSharp_Programming {
       // byte , short , int , long
       // sbyte(-128 ~ 127) , ushort(0 ~ 6만) , uint(0 ~ 43억) , ulong
 
+      // # 정수
+
       /*  int hp;
         short level = 100;
         hp = 100;
@@ -15,6 +17,8 @@ namespace CSharp_Programming {
         
 
         Console.WriteLine ("Hello World ! {0}", hp); */
+
+      // # 2진수 ,10진수 ,16진수
 
       // 10진수
       // 00 01 02 03 04 05 06 07 08 09
@@ -29,8 +33,10 @@ namespace CSharp_Programming {
       // 0~9 a b c d e f  
       // 0x00 0x01 0x02 .. 0x0f
 
+      /*  
+      
       // 1바이트(참 / 거짓)
-      /*  bool b;
+      bool b;
         b = true;
         b = false; */
 
@@ -45,6 +51,9 @@ namespace CSharp_Programming {
        string str = "Hello World";
 
        Console.WriteLine(str); */
+
+      // # 형변환
+
       /*
             // 1. 바구니 크기가 다른 경우
             int a = 0x0FFFFFFF;
@@ -60,6 +69,10 @@ namespace CSharp_Programming {
             float f = 3.1414f;
             double d = f;
       */
+
+      // # 논리 연산
+
+      /*
       int hp = 100;
       int level = 50;
 
@@ -67,6 +80,53 @@ namespace CSharp_Programming {
       bool isHighLevel = level >= 40;
 
       bool a = isAlive && isHighLevel;
+
+      bool b = isAlive || isHighLevel;
+
+      bool c = !isAlive;
+      */
+
+      // # 비트연산
+
+      /*
+      int id = 123;
+      int key = 401;
+
+      int a = id ^ key;
+      int b = a ^ key;
+
+      // << >>  &(and) |(or) ^(xor) ~(not)
+      //num = num >> 1;
+
+      Console.WriteLine (b);
+      Console.WriteLine (a);
+      */
+
+      // # 할당 연산
+
+      /*
+      int a;
+
+      a = 100;
+
+      int b;
+      b = a;
+
+      a += 1;
+      a -= 1;
+      a *= 1;
+      a /= 1;
+      a %= 1;
+      a <<= 1;
+      a >>= 1;
+      a &= 1;
+      a |= 1;
+      a ^= 1;
+      */
+
+      //var num =3;
+
+      // var num2 = "Hello World";
 
     }
   }
