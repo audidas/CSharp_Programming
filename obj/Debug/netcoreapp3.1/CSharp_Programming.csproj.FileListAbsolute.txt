@@ -1,4 +1,0 @@
-/Volumes/USB/CSharp/CSharp_Programming/obj/Debug/netcoreapp3.1/CSharp_Programming.csprojAssemblyReference.cache
-/Volumes/USB/CSharp/CSharp_Programming/obj/Debug/netcoreapp3.1/CSharp_Programming.csproj.CoreCompileInputs.cache
-/Volumes/USB/CSharp/CSharp_Programming/obj/Debug/netcoreapp3.1/CSharp_Programming.AssemblyInfoInputs.cache
-/Volumes/USB/CSharp/CSharp_Programming/obj/Debug/netcoreapp3.1/CSharp_Programming.AssemblyInfo.cs
