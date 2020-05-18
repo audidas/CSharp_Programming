@@ -1,0 +1,12 @@
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/obj/Debug/netcoreapp3.1/FlowControll.csprojAssemblyReference.cache
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/obj/Debug/netcoreapp3.1/FlowControll.csproj.CoreCompileInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/obj/Debug/netcoreapp3.1/FlowControll.AssemblyInfoInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/obj/Debug/netcoreapp3.1/FlowControll.AssemblyInfo.cs
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/bin/Debug/netcoreapp3.1/FlowControll.deps.json
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/bin/Debug/netcoreapp3.1/FlowControll.runtimeconfig.json
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/bin/Debug/netcoreapp3.1/FlowControll.runtimeconfig.dev.json
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/bin/Debug/netcoreapp3.1/FlowControll.dll
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/bin/Debug/netcoreapp3.1/FlowControll.pdb
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/obj/Debug/netcoreapp3.1/FlowControll.dll
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/obj/Debug/netcoreapp3.1/FlowControll.pdb
+/Volumes/USB/CSharp/CSharp_Programming/FlowControll/obj/Debug/netcoreapp3.1/FlowControll.genruntimeconfig.cache
