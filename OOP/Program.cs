@@ -3,44 +3,29 @@
 namespace OOP
 {
     // OOP(은닉성 / 상속성 / 다형성)
-    class Player // 부모 / 기반 
+
+    // 자동차
+    // 핸들 페달 차문
+    // 전기장치 엔진 기름 <-> 외부 노출
+
+    class Knight
     {
-        static public int counter = 1; // 오로지 1개만 존재
-        public int id;
+        // 접근 한정자
+        // public protected private
         public int hp;
-        public int attack;
-        public void Move()
+    }
+    class SuperKnight : Knight
+    {
+        void Test()
         {
-            System.Console.WriteLine("Player Move");
-        }
-        public void Attack()
-        {
-            System.Console.WriteLine("Player Attack");
+            hp = 10;
         }
     }
-
-    class Mage : Player
-    {
-
-    }
-    class Archer : Player
-    {
-
-    }
-    class Knight : Player // 자식 / 파생
-    {
-        public void Stun()
-        {
-
-        }
-    }
-
     class Program
     {
         static void Main(string[] args)
         {
             Knight knight = new Knight();
-            knight.Attack();
         }
     }
 }
