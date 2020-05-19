@@ -1,0 +1,12 @@
+/Volumes/USB/CSharp/CSharp_Programming/OOP/bin/Debug/netcoreapp3.1/OOP.deps.json
+/Volumes/USB/CSharp/CSharp_Programming/OOP/bin/Debug/netcoreapp3.1/OOP.runtimeconfig.json
+/Volumes/USB/CSharp/CSharp_Programming/OOP/bin/Debug/netcoreapp3.1/OOP.runtimeconfig.dev.json
+/Volumes/USB/CSharp/CSharp_Programming/OOP/bin/Debug/netcoreapp3.1/OOP.dll
+/Volumes/USB/CSharp/CSharp_Programming/OOP/bin/Debug/netcoreapp3.1/OOP.pdb
+/Volumes/USB/CSharp/CSharp_Programming/OOP/obj/Debug/netcoreapp3.1/OOP.csprojAssemblyReference.cache
+/Volumes/USB/CSharp/CSharp_Programming/OOP/obj/Debug/netcoreapp3.1/OOP.csproj.CoreCompileInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/OOP/obj/Debug/netcoreapp3.1/OOP.AssemblyInfoInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/OOP/obj/Debug/netcoreapp3.1/OOP.AssemblyInfo.cs
+/Volumes/USB/CSharp/CSharp_Programming/OOP/obj/Debug/netcoreapp3.1/OOP.dll
+/Volumes/USB/CSharp/CSharp_Programming/OOP/obj/Debug/netcoreapp3.1/OOP.pdb
+/Volumes/USB/CSharp/CSharp_Programming/OOP/obj/Debug/netcoreapp3.1/OOP.genruntimeconfig.cache
