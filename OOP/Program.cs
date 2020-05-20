@@ -4,28 +4,37 @@ namespace OOP
 {
     // OOP(은닉성 / 상속성 / 다형성)
 
-    // 자동차
-    // 핸들 페달 차문
-    // 전기장치 엔진 기름 <-> 외부 노출
+    class Player
+    {
+        protected int hp;
+        protected int attack;
+    }
+    class Knight : Player
+    {
 
-    class Knight
-    {
-        // 접근 한정자
-        // public protected private
-        public int hp;
     }
-    class SuperKnight : Knight
+    class Mage : Player
     {
-        void Test()
-        {
-            hp = 10;
-        }
+        public int mp;
     }
+
     class Program
     {
+        static void EnterGame(Player player)
+        {
+            Mage mage = player as Mage;
+            if (mage != null)
+            {
+                mage.mp = 10;
+            }
+        }
         static void Main(string[] args)
         {
             Knight knight = new Knight();
+            Mage mage = new Mage();
+
+            EnterGame(mage);
+
         }
     }
 }
