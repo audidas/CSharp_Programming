@@ -1,0 +1,12 @@
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/bin/Debug/netcoreapp3.1/DataStructure.deps.json
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/bin/Debug/netcoreapp3.1/DataStructure.runtimeconfig.json
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/bin/Debug/netcoreapp3.1/DataStructure.runtimeconfig.dev.json
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/bin/Debug/netcoreapp3.1/DataStructure.dll
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/bin/Debug/netcoreapp3.1/DataStructure.pdb
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/obj/Debug/netcoreapp3.1/DataStructure.csprojAssemblyReference.cache
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/obj/Debug/netcoreapp3.1/DataStructure.csproj.CoreCompileInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/obj/Debug/netcoreapp3.1/DataStructure.AssemblyInfoInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/obj/Debug/netcoreapp3.1/DataStructure.AssemblyInfo.cs
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/obj/Debug/netcoreapp3.1/DataStructure.dll
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/obj/Debug/netcoreapp3.1/DataStructure.pdb
+/Volumes/USB/CSharp/CSharp_Programming/DataStructure/obj/Debug/netcoreapp3.1/DataStructure.genruntimeconfig.cache
