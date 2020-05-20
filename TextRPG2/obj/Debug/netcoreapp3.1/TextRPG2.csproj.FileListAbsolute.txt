@@ -1,0 +1,12 @@
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/bin/Debug/netcoreapp3.1/TextRPG2.deps.json
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/bin/Debug/netcoreapp3.1/TextRPG2.runtimeconfig.json
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/bin/Debug/netcoreapp3.1/TextRPG2.runtimeconfig.dev.json
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/bin/Debug/netcoreapp3.1/TextRPG2.dll
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/bin/Debug/netcoreapp3.1/TextRPG2.pdb
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/obj/Debug/netcoreapp3.1/TextRPG2.csprojAssemblyReference.cache
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/obj/Debug/netcoreapp3.1/TextRPG2.csproj.CoreCompileInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/obj/Debug/netcoreapp3.1/TextRPG2.AssemblyInfoInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/obj/Debug/netcoreapp3.1/TextRPG2.AssemblyInfo.cs
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/obj/Debug/netcoreapp3.1/TextRPG2.dll
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/obj/Debug/netcoreapp3.1/TextRPG2.pdb
+/Volumes/USB/CSharp/CSharp_Programming/TextRPG2/obj/Debug/netcoreapp3.1/TextRPG2.genruntimeconfig.cache

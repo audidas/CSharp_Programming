@@ -24,21 +24,21 @@ namespace TextRPG2
     {
         public Slime() : base(MonsterType.Slime)
         {
-
+            SetInfo(10, 1);
         }
     }
     class Orc : Monster
     {
         public Orc() : base(MonsterType.Orc)
         {
-
+            SetInfo(20, 2);
         }
     }
     class Skeleton : Monster
     {
         public Skeleton() : base(MonsterType.Skeleton)
         {
-
+            SetInfo(15, 5);
         }
     }
 }
