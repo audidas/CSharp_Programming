@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DataStructure
 {
@@ -94,21 +95,58 @@ namespace DataStructure
             return scores;
 
         }
+
+        class Map
+        {
+            int[,] tiles ={
+                {1,1,1,1,1},
+                {1,0,0,0,1},
+                {1,0,0,0,1},
+                {1,0,0,0,1},
+                {1,1,1,1,1}
+            };
+            public void Render()
+            {
+                for (int i = 0; i < tiles.GetLength(0); i++)
+                {
+                    for (int j = 0; j < tiles.GetLength(1); j++)
+                    {
+                        if (tiles[i, j] == 1)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                        }
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Green;
+
+                        }
+                        Console.Write('\u25cf');
+                    }
+                    Console.WriteLine();
+                }
+            }
+        }
         static void Main(string[] args)
         {
             //배열
-            int[] scores = new int[7] { 10, 10, 30, 30, 10,27,5 };
-
-            Console.WriteLine(GetHighestScore(scores));
-            Console.WriteLine(GetAverageScore(scores));
-            Console.WriteLine(GetIndexOf(scores, 12));
-
-            int[] scores2 = Sort(scores);
-
-            foreach (int score in scores2)
+            List<int> list = new List<int>();
+            for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine(score);
+                list.Add(i);
             }
+
+            // 삽입 삭제
+            list.Insert(2, 999);
+
+            bool success = list.Remove(999);
+            list.RemoveAt(0);
+            list.Clear();
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                Console.WriteLine(list[i]);
+            }
+
         }
     }
 }
