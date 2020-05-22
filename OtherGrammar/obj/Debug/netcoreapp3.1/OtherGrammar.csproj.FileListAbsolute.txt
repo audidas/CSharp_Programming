@@ -1,0 +1,12 @@
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/bin/Debug/netcoreapp3.1/OtherGrammar.deps.json
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/bin/Debug/netcoreapp3.1/OtherGrammar.runtimeconfig.json
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/bin/Debug/netcoreapp3.1/OtherGrammar.runtimeconfig.dev.json
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/bin/Debug/netcoreapp3.1/OtherGrammar.dll
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/bin/Debug/netcoreapp3.1/OtherGrammar.pdb
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/obj/Debug/netcoreapp3.1/OtherGrammar.csprojAssemblyReference.cache
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/obj/Debug/netcoreapp3.1/OtherGrammar.csproj.CoreCompileInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/obj/Debug/netcoreapp3.1/OtherGrammar.AssemblyInfoInputs.cache
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/obj/Debug/netcoreapp3.1/OtherGrammar.AssemblyInfo.cs
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/obj/Debug/netcoreapp3.1/OtherGrammar.dll
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/obj/Debug/netcoreapp3.1/OtherGrammar.pdb
+/Volumes/USB/CSharp/CSharp_Programming/OtherGrammar/obj/Debug/netcoreapp3.1/OtherGrammar.genruntimeconfig.cache
