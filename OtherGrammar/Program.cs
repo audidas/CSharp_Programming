@@ -5,7 +5,7 @@ namespace OtherGrammar
 {
     class Program
     {
-        class MyList<T> where T : Monster
+        class MyList<T> where T : new()
         {
             T[] arr = new T[10];
 
