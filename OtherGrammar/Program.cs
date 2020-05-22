@@ -5,29 +5,49 @@ namespace OtherGrammar
 {
     class Program
     {
-        class MyList<T> where T : new()
-        {
-            T[] arr = new T[10];
 
-            public T GetItem(int i)
+        abstract class Monster
+        {
+            public abstract void Shout();
+
+        }
+
+        interface IFlyable
+        {
+            void Fly();
+        }
+        class Orc : Monster
+        {
+            public override void Shout()
             {
-                return arr[i];
+                Console.WriteLine("록타르 오가르!");
             }
         }
-        class Monster
+        class FlyableOrc : Orc, IFlyable
         {
+            public void Fly()
+            {
 
+            }
         }
 
-        static void Test<T>(T input)
-        {
 
+        class Skeleton : Monster
+        {
+            public override void Shout()
+            {
+                System.Console.WriteLine("꾸에에엑!");
+            }
+        }
+
+        static void DoFly(IFlyable flyable)
+        {
+            flyable.Fly();
         }
         static void Main(string[] args)
         {
-            MyList<int> myIntList = new MyList<int>();
-            MyList<short> myShortList = new MyList<short>();
-            MyList<Monster> myMonsterList = new MyList<Monster>();
+            FlyableOrc orc = new FlyableOrc();
+            DoFly(orc);
         }
     }
 }
