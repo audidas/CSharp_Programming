@@ -18,7 +18,6 @@ namespace OtherGrammar
             {
                 inputManager.Update();
             }
-
         }
     }
 }
