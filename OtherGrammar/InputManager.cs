@@ -4,6 +4,7 @@ using System.Text;
 
 namespace OtherGrammar
 {
+    
     // Observer Pattern
     public class InputManager
     {
