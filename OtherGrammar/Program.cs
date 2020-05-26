@@ -1,40 +1,54 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
 
 namespace OtherGrammar
 {
+    class Important : System.Attribute
+    {
+        string message;
+        public Important(string message) { this.message = message; }
+    }
+    class Monster
+    {
+        // hp입니다. 중요한 정보입니다.
+        [Important("Very Important")]
+        public int hp;
+        protected int attack;
+        private float speed;
+
+        void Attack() { }
+    }
     class Program
     {
-        class TestException : Exception
-        {
-
-        }
         static void Main(string[] args)
         {
-            try
+            // Reflection : X-Ray
+            Monster monster = new Monster();
+
+            Type type = monster.GetType();
+
+            var fields = type.GetFields(System.Reflection.BindingFlags.Public
+            | System.Reflection.BindingFlags.NonPublic
+            | System.Reflection.BindingFlags.Static
+            | System.Reflection.BindingFlags.Instance);
+
+
+
+            foreach (FieldInfo field in fields)
             {
-                // 1. 0으로 나눌 다른
-                // 2. 잘못된 메모리를 참조 (null)
-                // 3. 오버플로우
-                // int a = 10;
-                // int b = 0;
-                // int result = a / b;
+                string access = "protected";
+                if (field.IsPublic)
+                {
+                    access = "public";
+                }
+                else if (field.IsPrivate)
+                {
+                    access = "private";
+                }
 
-                // int c = 0;
-
-                throw new TestException();
-            }
-            catch (DivideByZeroException e)
-            {
-
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-
+                var att = field.GetCustomAttributes();
+                Console.WriteLine($"{access} {field.FieldType.Name} {field.Name}");    
             }
         }
 
