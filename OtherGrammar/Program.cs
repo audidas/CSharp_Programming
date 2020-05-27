@@ -4,51 +4,61 @@ using System.Reflection;
 
 namespace OtherGrammar
 {
-    class Important : System.Attribute
-    {
-        string message;
-        public Important(string message) { this.message = message; }
-    }
-    class Monster
-    {
-        // hp입니다. 중요한 정보입니다.
-        [Important("Very Important")]
-        public int hp;
-        protected int attack;
-        private float speed;
-
-        void Attack() { }
-    }
     class Program
     {
+
+        static Monster FindMonster(int id)
+        {
+            // for()
+            // return monster;
+            return null;
+        }
+
+        static int Find()
+        {
+            return 0;
+        }
+
+        class Monster
+        {
+            public int Id { get; set; }
+        }
         static void Main(string[] args)
         {
-            // Reflection : X-Ray
-            Monster monster = new Monster();
-
-            Type type = monster.GetType();
-
-            var fields = type.GetFields(System.Reflection.BindingFlags.Public
-            | System.Reflection.BindingFlags.NonPublic
-            | System.Reflection.BindingFlags.Static
-            | System.Reflection.BindingFlags.Instance);
-
-
-
-            foreach (FieldInfo field in fields)
+            Monster monster = null;
+            if (monster != null)
             {
-                string access = "protected";
-                if (field.IsPublic)
-                {
-                    access = "public";
-                }
-                else if (field.IsPrivate)
-                {
-                    access = "private";
-                }
+                int monsterId = monster.Id;
+            }
 
-                var att = field.GetCustomAttributes();
-                Console.WriteLine($"{access} {field.FieldType.Name} {field.Name}");    
+            int? id = monster?.Id;
+            if (monster == null)
+            {
+                id = null;
+            }
+            else
+            {
+                id = monster.Id;
+            }
+
+            // Nullable -> Null + able
+            int? number = null;
+
+            int b = number ?? 5;
+            Console.WriteLine(b);
+            number = 5;
+            if (number != null)
+            {
+                int a = number.Value;
+                System.Console.WriteLine(a);
+
+            }
+
+            if (number.HasValue)
+            {
+                int a = number.Value;
+                System.Console.WriteLine(a);
+
             }
         }
 
